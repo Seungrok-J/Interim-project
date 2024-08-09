@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 레몬베이스(SaaS) 리버스 엔지니어링 프로젝트
 
-## Available Scripts
+**프론트엔드 개발**  
+**개발 기간:** 6주  
+**기술 스택:** React.js, Bootstrap
 
-In the project directory, you can run:
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 프로젝트 개요
 
-### `npm test`
+이 프로젝트는 성과관리 서비스를 제공하는 **레몬베이스(SaaS)** 사이트를 리버스 엔지니어링하는 것을 목표로 합니다. 본 프로젝트에서는 **React.js**와 **Bootstrap**을 사용하여 프론트엔드 인터페이스를 개발하였습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 주요 기능
 
-### `npm run build`
+### 1. 성과관리 대시보드
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **개인 성과 관리**: 사용자의 성과를 시각적으로 표현하고, 목표 달성을 지원하는 대시보드를 구현했습니다.
+- **성과 분석**: 데이터를 기반으로 사용자의 성과를 분석하고, 이에 대한 피드백을 제공합니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. 사용자 프로필 관리
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **프로필 정보 수정**: 사용자는 자신의 프로필 정보를 수정할 수 있으며, 업로드된 데이터를 즉시 반영합니다.
+- **사용자 권한 관리**: 사용자의 역할에 따라 접근 가능한 기능을 제한하는 권한 관리를 구현했습니다.
 
-### `npm run eject`
+### 3. 성과 리뷰 시스템
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **리뷰 작성 및 제출**: 팀 리더와 멤버들이 성과 리뷰를 작성하고 제출할 수 있는 기능을 제공합니다.
+- **리뷰 피드백**: 제출된 리뷰에 대해 피드백을 제공하고, 이를 통해 지속적인 성과 개선을 유도합니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. 실시간 알림 및 메시징
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **실시간 알림**: 주요 이벤트 발생 시 사용자에게 실시간으로 알림을 제공합니다.
+- **내장 메시징 시스템**: 사용자 간의 원활한 소통을 위한 내장 메시징 시스템을 구현했습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 개발 환경
 
-## Learn More
+- **프레임워크**: React.js
+- **UI 라이브러리**: Bootstrap
+- **언어**: JavaScript, HTML5, CSS3
+- **도구**: Visual Studio Code, Git, npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 프로젝트 구조
