@@ -46,4 +46,15 @@
 - **언어**: JavaScript, HTML5, CSS3
 - **도구**: Visual Studio Code, Git, npm
 
-## 프로젝트 구조
+## 주요 페이지
+
+![어드민메인페이지](src/components/img/어드민메인페이지.png)
+
+![유저메인페이지](src/components/img/유저메인페이지.png)
+
+![목표페이지](src/components/img/목표페이지.png)
+
+![마이리뷰페이지](src/components/img/myreview.png)
+
+![어드민리뷰페이지](src/components/img/adminreview.png)
+
